@@ -1,0 +1,51 @@
+.bar-principale{
+    padding: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #3b556d;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+h1{
+    color: antiquewhite;
+}
+body{
+    background-color: #f0eee9;
+}
+p{
+    font-size: 1.3em;
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+.a:hover{
+    color:#ffd358 ;
+}
+.motorwagen{
+    display: flex;
+    justify-content: flex-end;
+    width: 500px;
+    height: 350px;
+}
+@media screen and(min-width:600px) and (max-width:1024px)
+{
+    .Motorwagen{
+        width: 223.5px;
+        height: 165.75px;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+@media screen and(min-width:320px) and (max-width:600px){
+    .Motorwagen{
+        width: 178.4px;
+        height: 132px;
+    }   
+    p{
+        font-size: 0.75em;
+    }
+}

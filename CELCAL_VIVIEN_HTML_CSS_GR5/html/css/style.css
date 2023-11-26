@@ -1,0 +1,136 @@
+.menu{
+    padding: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #3b556d;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+a{
+    color: antiquewhite;
+}
+body{
+    background-color: #f0eee9;
+}
+a:hover{
+    color:#ffd358 ;
+}
+.Motorwagen{
+    width: 447px;
+    height: 331.5px;
+}
+
+.jaguar-type-c{
+    width: 426.6px;
+    height: 295px;
+}
+.R5{
+    width: 355.6px;
+    height: 266.6px;
+}
+.logo-bosch{
+    width: 426.6px;
+    height: 240px;
+}
+.tesla-roadster{
+    width: 341.3px;
+    height: 226.6px;
+}
+.hyper-force{
+    width: 366.6px;
+    height: 206px;
+    
+}
+p{
+    font-size: 1.3em;
+}
+.t1{
+    display: flex;
+    align-items: center;
+}
+.t2{
+    display: flex;
+    align-items: center;
+}
+.t3{
+    display: flex;
+    align-items: center;
+}
+.t4{
+    display: flex;
+    align-items: center;
+}
+.t5{
+    display: flex;
+    align-items: center;
+}
+.t6{
+    display: flex;
+    align-items: center;
+}
+.t7{
+    display: flex;
+    align-items: center;
+}
+
+@media screen and(min-width:600px) and (max-width:1024px)
+{
+    .Motorwagen{
+        width: 223.5px;
+        height: 165.75px;
+    }
+    .jaguar-type-c{
+        width: 213.3px;
+        height: 147.5px;
+    }
+    .R5{
+        width: 177.5px;
+        height: 133px;
+    }
+    .logo-bosch{
+        width: 213px;
+        height: 120px;
+    }
+    .tesla-roadster{
+        width: 170.5px;
+        height: 113px;
+    }
+    .hyper-force{
+        width: 183px;
+        height: 103px;
+        
+    }
+    p{
+        font-size: 1em;
+    }
+}
+@media screen and(min-width:320px) and (max-width:600px){
+    .Motorwagen{
+        width: 178.4px;
+        height: 132px;
+    }
+    .jaguar-type-c{
+        width: 170.4px;
+        height: 117px;
+    }
+    .R5{
+        width: 141px;
+        height: 106.4px;
+    }
+    .logo-bosch{
+        width: 170px;
+        height: 96px;
+    }
+    .tesla-roadster{
+        width: 136px;
+        height: 90.4px;
+    }
+    .hyper-force{
+        width: 146px;
+        height: 82.4px;
+        
+    }
+    p{
+        font-size: 0.75em;
+    }
+}

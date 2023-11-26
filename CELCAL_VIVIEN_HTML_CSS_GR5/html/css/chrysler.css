@@ -1,0 +1,55 @@
+.bar-principale{
+    padding: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #3b556d;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+h1{
+    color: antiquewhite;
+}
+body{
+    background-color: #f0eee9;
+}
+p{
+    font-size: 1.3em;
+    display: flex;
+}
+ul{
+    font-size: 1.3em;
+    display: flex;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+.a:hover{
+    color:#ffd358 ;
+}
+@media screen and(min-width:600px) and (max-width:1024px)
+{
+    .gt40{
+        width: 350px;
+        height: 200px;
+    }
+    p{
+        font-size: 1em;
+    }
+    ul{
+        font-size: 1em;
+    }
+}
+@media screen and(min-width:320px) and (max-width:600px){
+    .gt40{
+        width: 280px;
+        height: 160px;
+    }
+    p{
+        font-size: 0.75em;
+    }
+    ul{
+        font-size: 0.75em;
+    }
+}

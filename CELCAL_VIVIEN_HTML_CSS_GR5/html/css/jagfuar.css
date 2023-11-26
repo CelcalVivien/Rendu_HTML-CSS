@@ -1,0 +1,54 @@
+.bar-principale{
+    padding: 2em;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    background-color: #3b556d;
+    display: flex;
+    justify-content: space-around;
+    font-size: 2em;
+}
+body{
+    background-color: #f0eee9;
+}
+h1{
+    color: antiquewhite;
+}
+h2{
+    display: flex;
+    justify-content: center;
+}
+a{
+    display: flex;
+    justify-content: center;
+}
+footer{
+    display: flex;
+    justify-content: flex-end;
+    color: black;
+}
+p{
+    font-size: 1.3em;
+    display: flex;
+}
+.jaguar{
+    width: 700px;
+    height: 400px;
+}
+@media screen and(min-width:600px) and (max-width:1024px)
+{
+    .jaguar-type-c{
+        width: 213.3px;
+        height: 147.5px;
+    }
+    p{
+        font-size: 1em;
+    }
+}
+@media screen and(min-width:320px) and (max-width:600px){
+    .jaguar-type-c{
+        width: 170.4px;
+        height: 117px;
+    }
+    p{
+        font-size: 0.75em;
+    }
+}
